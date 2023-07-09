@@ -1,0 +1,37 @@
+.note {
+
+  background-color:  #fef68a;
+  width: 395px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 10px;
+  
+}
+
+.notes {
+  align-items: flex-end;
+}
+.time{
+  padding-top: 120px;
+  display: flex;
+  padding-left: 20px;
+}
+
+.text {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.delete{
+
+  size: 100px;
+  padding-top: 14px;
+  padding-left: 265px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 20px;
+}
